@@ -31,8 +31,8 @@ To Recieve the Image:
     Add new Empty GameObject < Add ExternalIntentReciever Script to gameObject
 
 Then From Any Script Subscribe to (onGetImage) Action in start:
-
+```
   ExternalIntentReciever.OnGetImage += delegate(Texture2D tex) =>{
     // Whatever you need to do with yor Image
   };
- 
+ ```
