@@ -7,7 +7,7 @@ E.g. Recieve an image when shared from app like amazon
 To enable your App to appear in share list
 Add intent-filters in AndroidManifest.xml file under Application tag
 (<----
-        ~~~<intent-filter>
+        ```<intent-filter>
         <action android:name="android.intent.action.SEND" />
         <category android:name="android.intent.category.DEFAULT" />
         <data android:mimeType="image/*" />
@@ -21,7 +21,7 @@ Add intent-filters in AndroidManifest.xml file under Application tag
         <action android:name="android.intent.action.SEND_MULTIPLE" />
         <category android:name="android.intent.category.DEFAULT" />
         <data android:mimeType="image/*" />
-        </intent-filter>~~~
+        </intent-filter>```
 ---->)
 
 
